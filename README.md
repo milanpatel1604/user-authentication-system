@@ -46,4 +46,4 @@ Made with :
 
 
 Desktop View:
-![alt txt](
+![alt text](https://github.com/milanpatel1604/user-authentication-system/blob/master/desktopview.png)
