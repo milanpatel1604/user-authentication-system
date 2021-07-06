@@ -42,7 +42,8 @@ Made with :
     1. Attractive and simple design,
     2. Full encryption,
     3. Single page application,
+    4. Full form validation
 
 
 Desktop View:
-
+![alt txt](
