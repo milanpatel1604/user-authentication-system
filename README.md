@@ -1,5 +1,5 @@
 # user-authentication-system
-This web based software is basically a Signup an Login form.
+This web based software basically has a fully working attractive Signup and Login form.
 
 Steps to use:
 
