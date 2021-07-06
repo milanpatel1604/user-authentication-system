@@ -28,20 +28,20 @@ Made with :
     1. HTML, CSS, 
     2. JS (AJAX)(Fetch Api).
 
--BackEnd--
-Nodejs(Express framework),
-REST Api,
-bcryptjs library to encrypt and decrypt password,
-JsonWebToken(JWT).
+2. -BackEnd--
+    1. Nodejs(Express framework),
+    2. REST Api,
+    3. bcryptjs library to encrypt and decrypt password,
+    4. JsonWebToken(JWT).
 
--DataBase--
-Mongodb,
-mongoose library.
+3. -DataBase--
+    1. Mongodb,
+    2. mongoose library.
 
-Features:
-Attractive and simple design,
-Full encryption,
-Single page application,
+4. Features:
+    1. Attractive and simple design,
+    2. Full encryption,
+    3. Single page application,
 
 
 Desktop View:
