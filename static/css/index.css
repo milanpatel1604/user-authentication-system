@@ -1,0 +1,114 @@
+:root{
+    --navy: #0a192f;
+    --green: #64ffda;
+    --lightest-text: #ccd6f6;
+    --text: #8892b0;
+}
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: content-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--navy);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    height: max-content;
+    width: 30rem;
+    border: .2rem solid var(--green);
+}
+.box h2{
+    color: var(--lightest-text);
+    font-size: 3rem;
+    width: max-content;
+    border-bottom: .1rem solid var(--green);
+    margin-bottom: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    color: var(--text);
+    font-size: 1.8rem;
+    padding: .5rem;
+    width: 80%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: .1rem solid var(--green);
+}
+label{
+    margin: 1.8rem 0rem;
+}
+label i{
+    font-size: 1.6rem;
+    filter: invert(1) opacity(30%);
+}
+form button{
+    color: var(--green);
+    width: 6rem;
+    background: transparent;
+    border: .1rem solid var(--green);
+    padding: .8rem 1.8rem;
+    margin: 2rem 1rem;
+    transition-property: background-color,color;
+    transition-duration: .5s;
+    font-size: 1.6rem;
+}
+button:hover{
+    background-color:var(--green);
+    color: black;
+}
+form p{
+    color: var(--text);
+    font-size: 1.3rem;
+    margin: .5rem 1rem;
+}
+form p a{
+    color: var(--green);
+    text-decoration: none;
+    cursor: pointer;
+}
+form p a:hover{
+    text-decoration: underline;
+}
+
+#login-box1{
+    display: block;
+}
+
+#signup-box1{
+    display: none;
+}
+
+#loginLandingPage{
+    display: none;
+    background-color: white;
+    opacity: 40%;
+    padding: 3rem;
+    font-size: 5rem;
+}
+
+#signupLandingPage{
+    display: none;
+    background-color: white;
+    opacity: 40%;
+    padding: 3rem;
+    font-size: 5rem;
+}

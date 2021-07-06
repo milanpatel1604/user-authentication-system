@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/static/images/laptop-user.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../static/css/index.css">
+    <title>Login or Signup to user-authentication-system</title>
+</head>
+
+<body>
+    <!-- Login Form -->
+    <div id="login-box1">
+        <div id="login-box" class="box">
+            <h2>Log In</h2>
+            <form id="login-form">
+                <label for="username">
+                    <i class="fa fa-user"></i>
+                    <input type="text" autocomplete="off" name="username" placeholder="Username" id="existingUsername" required>
+                </label>
+                <label for="password">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="password" placeholder="Password" id="existingPassword" required>
+                </label>
+                <div>
+                    <button type="submit" id="login-btn">Log In </button>
+                    <p>New User? <a id="to-signup-form">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Sign Up Form -->
+    <div id="signup-box1">
+        <div id="signup-box" class="box">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="username">
+                    <i class="fa fa-user"></i>
+                    <input type="text" autocomplete="off" name="username" placeholder="Username" id="newusername" required>
+                </label>
+                <label for="email">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" autocomplete="off" name="email" placeholder="Email" id="email" required>
+                </label>
+                <label for="password">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="password" placeholder="Password" id="newuserpassword" required>
+                </label>
+                <div>
+                    <button type="submit" id="signup-btn">Sign Up</button>
+                    <p>Already a User? <a id="to-login-form">Log In</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="loginLandingPage">
+        <h1>Login landing page</h1>
+    </div>
+
+    <div id="signupLandingPage">
+        <h1>Signup Landing page</h1>
+    </div>
+</body>
+<script src="../static/js/login.js"></script>
+
+</html>
