@@ -87,6 +87,6 @@ app.post('/api/login', async (req,res)=>{
 
 
 
-app.listen(port,()=>{
+app.listen(process.env.PORT || port,()=>{
     console.log(`this site is active at localhost:${port}`);
 })
