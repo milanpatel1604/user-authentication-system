@@ -10,7 +10,7 @@ const port=800;
 
 const JWT_SECRET='kdjsnfakjh7325y8178934tho4nuifbu#%#$%#uihfuehrirniwjgijioe';
 
-mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost:27017/login-app-db',{useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true});
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/login-app-db',{useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true});
 
 
 const app=express();
