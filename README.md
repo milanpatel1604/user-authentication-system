@@ -1,5 +1,5 @@
 # user-authentication-system
-This web based software is basically a Signup an Login form.
+This web based software basically has a fully working attractive Signup and Login form.
 
 Steps to use:
 
@@ -46,4 +46,4 @@ Made with :
 
 
 Desktop View:
-![alt txt](
+![alt text](https://github.com/milanpatel1604/user-authentication-system/blob/master/desktopview.png)
